@@ -4,9 +4,8 @@ from .base import *
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
-# PNLMw4a2DFrspJzb
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
